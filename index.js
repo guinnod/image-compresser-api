@@ -16,7 +16,7 @@ app.post("/", async (req, res) => {
     const maxSize = req.query.max;
     const { buffer } = image;
     const result = await compressImage(buffer, maxSize);
-    res.set("Content-Type", "image/jpeg");
+    res.set("Content-Type", image.mimetype);
     res.send(result);
 });
 
