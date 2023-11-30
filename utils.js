@@ -2,7 +2,6 @@ const sharp = require("sharp");
 
 async function compressImage(inputBuffer, maxSize = 300) {
     try {
-        const firstSize = inputBuffer.length;
         let quality = 90;
         let compressedBuffer = inputBuffer;
         let width = (
@@ -28,12 +27,6 @@ async function compressImage(inputBuffer, maxSize = 300) {
             quality -= 10;
         }
 
-        console.log(
-            "FIRST SIZE",
-            firstSize,
-            "CURRENT SIZE",
-            compressedBuffer.length
-        );
         return compressedBuffer;
     } catch (error) {
         console.log("COMPRESS FAILED", error);
