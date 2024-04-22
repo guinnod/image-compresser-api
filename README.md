@@ -20,7 +20,7 @@ To run this project locally, follow these steps:
   ```
 - Navigate into the project directory
   ```bash
-  cd simple-image-compressor-api
+  cd image-compressor-api
   ```
 ### Requirements
 - Ensure you have Node.js installed on your machine.
