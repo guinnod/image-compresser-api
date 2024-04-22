@@ -24,12 +24,12 @@ To run this project locally, follow these steps:
   ```
 ### Requirements
 - Ensure you have Node.js installed on your machine.
-### Install Dependencies
+### Getting started
 - Install all required dependencies using npm:
   ```bash
   npm install
   ```
-### Starting the Server
+- Starting the Server
 ```bash
   npm start
   ```
