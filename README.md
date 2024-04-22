@@ -11,14 +11,10 @@ This API accepts an image file via a POST request and compresses it to a specifi
 ## Getting started
 - Ensure you have Node.js installed on your machine.
 - Install all required dependencies using npm:
-  ```bash
-  npm install
-  ```
+  `npm install`
 - Starting the Server
-  ```bash
-  npm start
-  ```
-- By default, the server runs on port 5000. However, if a $PORT variable is set in your .env file, the server will use this port instead.
+  `npm start`
+- By default, the server runs on port 5000. However, if a `$PORT` variable is set in your `.env` file, the server will use this port instead.
 
 ## Usage
 
